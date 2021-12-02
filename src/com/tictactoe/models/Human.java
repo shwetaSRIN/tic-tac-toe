@@ -12,6 +12,11 @@ public class Human extends Player{
         return new Builder();
     }
 
+
+    //
+
+  //  1 -1 1
+
     @Override
     public void makeMove(Board b) {
         System.out.println("Player "+user.getName()+" Make Move enter coordinates:");

@@ -6,7 +6,6 @@ import com.tictactoe.models.Player;
 import java.util.List;
 
 public class DefaultWinningStrategy implements IWinningStrategy{
-
     @Override
     public int checkWinner(Board b, List<Player> players) {
       //  for(Player p:players){
